@@ -1,0 +1,17 @@
+/* TYPO3 uses html {overflow: hidden, height: 100%} body {height: 100%;overflow:auto}
+ * to prevent some "Browser Rebounce" – with no further
+ * explanation what that is.
+ * That "fix" causes a bugs in chrome because:
+ *  * ckeditor context/popup menu cause the page to scroll up as body is only
+ *    100% in height and those elements are placed absolutly in the <body> tag
+ *  * The scrollbar is overlayed by the topbar
+ */
+
+html {
+	overflow: auto;
+}
+body {
+	height: auto;
+	min-height: 100%;
+	overflow: visible;
+}

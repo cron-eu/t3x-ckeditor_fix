@@ -1,0 +1,11 @@
+{
+	"name": "cron/ckeditor-fix",
+	"type": "typo3-cms-extension",
+	"description": "ckeditor bugfix for #80116",
+	"homepage": "https://github.com/cron-eu/t3x-ckeditor_fix",
+	"license": ["GPL-2.0+"],
+	"keywords": ["TYPO3 CMS"],
+	"require": {
+		"typo3/cms-rte-ckeditor": "8.*"
+	}
+}

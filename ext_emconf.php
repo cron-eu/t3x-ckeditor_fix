@@ -1,0 +1,35 @@
+<?php
+
+$EM_CONF[$_EXTKEY] = array(
+    'title' => 'ckeditor bugfix for #80116',
+    'description' => 'Fixes ckeditor styles selector in Chrome / Safari',
+    'category' => 'system',
+    'shy' => 0,
+    'dependencies' => 'cms',
+    'conflicts' => '',
+    'priority' => '',
+    'loadOrder' => '',
+    'module' => '',
+    'state' => 'stable',
+    'internal' => 0,
+    'uploadfolder' => 0,
+    'createDirs' => '',
+    'modify_tables' => '',
+    'clearCacheOnLoad' => 1,
+    'lockType' => '',
+    'author' => 'Ernesto Baschny',
+    'author_email' => 'eb@cron.eu',
+    'author_company' => 'cron IT GmbH',
+    'CGLcompliance' => '',
+    'CGLcompliance_note' => '',
+    'version' => '1.0.0',
+    'constraints' => array(
+        'depends' => array(
+            'typo3' => '8.7.0-8.7.99',
+            'rte_ckeditor' => '8.7.0-8.7.99',
+        ),
+        'conflicts' => array(),
+        'suggests' => array(),
+    ),
+    'suggests' => array(),
+);
