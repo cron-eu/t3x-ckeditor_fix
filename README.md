@@ -1,3 +1,5 @@
+**WARNING: This fix is obsolete since release of TYPO3 8.7.11.**
+
 TYPO3 ckeditor Chrome / Safari fix
 ==================================
 
